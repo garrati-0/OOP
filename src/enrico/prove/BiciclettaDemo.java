@@ -7,6 +7,9 @@ public class BiciclettaDemo {
         Bicicletta bike1 = new Bicicletta();
         Bicicletta bike2 = new Bicicletta();
 
+        //esempio di ereditarità
+        BiciElettrica bike3 = new BiciElettrica();
+
         // Invoke methods on
         // those objects
         bike1.changeCadence(50);
@@ -21,5 +24,10 @@ public class BiciclettaDemo {
         bike2.speedUp(10);
         bike2.changeGear(3);
         bike2.printStates();
+
+        //esempio di ereditarietà
+        bike3.printsucces();
+        bike3.changeCadence(24);
+        bike3.printStates();
     }
 }
