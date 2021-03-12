@@ -32,5 +32,12 @@ public class EsStringhe {
         System.out.println(s1+" "+s5);//stampa s1"ciao" + " " + s5"enrico" -> "ciao enrico"
 
         s1.length(); //mi dice quanto è grande la stringa
+
+
+        //in questo caso stamperà uguali poichè sto usando un metoo della classe strighe
+        //che ci dice se due strighe hanno lo stesso contenuto
+        if(s3.equals(s4)){
+            System.out.println("uguali s3 s4");
+        }
     }
 }
