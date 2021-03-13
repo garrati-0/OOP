@@ -46,14 +46,14 @@ public class EsStringhe {
             long start,end;//variabili per misurare il tempo
 
             start = System.nanoTime();
-            for(int i=0;i<100000;i++){
+            for(int i=0;i<100000;i++){//in questo caso ci metterà più tempo infatti non modifica la strigha già esistente ma ne crea di nuove
                 a=a + "a";
             }
             end = System.nanoTime();
             System.out.println((end-start)/1000000);
 
             start = System.nanoTime();
-            for(int i=0;i<100000;i++){
+            for(int i=0;i<100000;i++){//invece in questo caso modifica la stringa 
                 ab.append("a");
             }
             end = System.nanoTime();
