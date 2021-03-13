@@ -38,6 +38,28 @@ public class EsStringhe {
         //che ci dice se due strighe hanno lo stesso contenuto
         if(s3.equals(s4)){
             System.out.println("uguali s3 s4");
+
+
+            //concatenazione
+            String a="";
+            StringBuffer ab=new StringBuffer();
+            long start,end;//variabili per misurare il tempo
+
+            start = System.nanoTime();
+            for(int i=0;i<100000;i++){
+                a=a + "a";
+            }
+            end = System.nanoTime();
+            System.out.println((end-start)/1000000);
+
+            start = System.nanoTime();
+            for(int i=0;i<100000;i++){
+                ab.append("a");
+            }
+            end = System.nanoTime();
+            System.out.println((end-start)/1000000);
+
+
         }
     }
 }
