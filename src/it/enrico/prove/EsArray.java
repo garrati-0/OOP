@@ -1,4 +1,4 @@
-package enrico.prove;
+package it.enrico.prove;
 
 import java.awt.Point;//classe java dove ci sono i punti
 
@@ -25,7 +25,7 @@ public class EsArray {
         String[] s = new String[6];
         s[0] = new String("ciao");
         //si può usare anche l' inizializzazione statica
-        String[] s1 = {new String("ciao"), new String("enrico")};
+        String[] s1 = {new String("ciao"), new String("it/enrico")};
         System.out.println(s1[0]+" "+s1[1]);
 
         for(int i=0;i<v.length;i++){

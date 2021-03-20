@@ -1,4 +1,4 @@
-package enrico.prove;
+package it.enrico.prove;
 
 public class EsempiJava {
     public static void main(String[] args) {

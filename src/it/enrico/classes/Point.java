@@ -1,14 +1,16 @@
-package enrico.classes;
+package it.enrico.classes;
 
 public class Point {
     double x; //x e y hanno visibilità default quindi può essere visibile solo nel package
     double y;
+    public static int nDimensioni = 2; //attributo statico
 
     public Point(double x, double y) {    //costruttore
         this.x = x;
         this.y = y;
     }
-    public double getX(){      //getters
+
+    public double getX() {      //getters
         return x;
     }
 
@@ -20,7 +22,7 @@ public class Point {
         this.y = y;
     }
 
-    public double getY(){
+    public double getY() {
         return y;
     }
 

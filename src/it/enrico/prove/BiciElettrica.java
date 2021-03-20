@@ -1,4 +1,4 @@
-package enrico.prove;
+package it.enrico.prove;
 //esempio di ereditarierà
 public class BiciElettrica extends Bicicletta {
     int ciaone =0;
