@@ -1,5 +1,5 @@
 package it.enrico.classes;
-
+import java.awt.*
 public class Point {
     double x; //x e y hanno visibilità default quindi può essere visibile solo nel package
     double y;
